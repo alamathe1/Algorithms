@@ -14,13 +14,13 @@ def mergeMain(left, right, arr):
             j += 1
         k += 1
 
-    # when i has some more elements in int
-
+    # when i has elements
     while i < len(left):
         arr[k] = left[i]
         i += 1
         k += 1
-
+        
+    # when j has elements
     while j < len(right):
         arr[k] = right[j]
         j += 1
